@@ -1,0 +1,9 @@
+name = "fhb_spectral"
+defaultTargets = ["FhbSpectral"]
+
+[[require]]
+name = "mathlib"
+path = "../mathlib4"
+
+[[lean_lib]]
+name = "FhbSpectral"
